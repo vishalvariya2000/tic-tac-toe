@@ -33,7 +33,7 @@ const click=(n)=>{
         setBoard(square)
     }  
     if(checkDraw(square)){
-        alert("Match Draw")
+        alert("Match is Over")
         square.fill('');
         setBoard(square)
     }  
